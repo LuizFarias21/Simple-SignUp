@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    
+    <title>Signup Form</title>
+</head>
+
+<body>
+    <!-- img/undraw_my_notifications_re_ehmk.svg -->
+    <div class="content">
+
+        <div class="left-content">
+            <img class="content-img" src="img/undraw_programming_re_kg9v.svg" alt="example">
+        </div>
+
+        <div class="right-content">
+            <h1>Sign up</h1>
+
+            <p>Already have an account? <a href="#">Log in</a></p>
+
+            <form action="#">
+
+                <div class="namesInput">
+                    <div class="inputFirstName">
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Your first name">
+                    </div>
+
+                    <div class="inputLastName">
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Your last name">
+                    </div>
+                </div>
+
+                <label for="email">E-mail</label>
+                <span class="material-icons-outlined">email</span>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create password">
+
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to Platform's <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                <button>Sign up</button>
+                
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
